@@ -1,0 +1,54 @@
+[general]
+name=Centrum wtyczek BDOT10k / BDOO (QGIS 4.x)
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+description=Jedno okno z kafelkami ulubionych wtyczek (BDOT10k, BDOO, GUGiK i dowolnych innych): otwieranie jednym kliknięciem, także algorytmów Processing, do 10 grup. / One window with tiles of your favourite plugins (BDOT10k, BDOO, GUGiK and any others): one-click start, also of Processing algorithms, up to 10 groups. Wersja dla / Version for QGIS 4.x (PyQt6).
+version=1.0
+author=Sławek Szymański
+email=apka.tarcz@gmail.com
+
+about=
+    === INSTRUKCJA OBSŁUGI (PL) ===
+    Launcher zbiera w jednym oknie kafelki najczęściej używanych wtyczek QGIS. Lista startowa zawiera wtyczki dotyczące BDOT10k i BDOO.
+    1. Uruchomienie: ikona na pasku narzędzi lub menu Wtyczki → Centrum wtyczek BDOT10k / BDOO.
+    2. Kliknięcie kafelka otwiera wtyczkę: jej polecenie z menu/paska albo okno algorytmu z panelu Processing (przy kilku możliwościach - lista do wyboru). Wtyczkę wyłączoną launcher włącza po potwierdzeniu; dla niezainstalowanej otwiera Menedżer wtyczek z wpisaną nazwą - instalację zatwierdzasz sam.
+    3. Dodaj wtyczkę - dodaje kafelek wtyczki zainstalowanej w QGIS (także wyłączonej). Usuń wtyczkę - usuwa zaznaczony kafelek; sama wtyczka zostaje w QGIS.
+    4. Kolejność: przeciągnij kafelek myszą. Przy każdym otwarciu okna najczęściej używane kafelki trafiają na początek.
+    5. Zmiana nazwy: prawy przycisk na kafelku (nazwa kafelka) albo na tytule okna (nazwa launchera i opis grupy).
+    6. Duplikuj ikonę - tworzy kolejną grupę (do 10) z własną ikoną z numerem na pasku narzędzi i opisem tematycznym (np. Raster, Wektor, AI). Usuń grupę - w oknie grupy 2-10.
+    7. Skaluj ikony - suwak lub wpisana wartość: rozmiar kafelków od 70 do 100 procent.
+    8. Wyłącz ikony - chowa z pasków narzędzi QGIS ikony wtyczek, które mają kafelek (menu bez zmian); Włącz ikony - przywraca je. Wyjątek dla wybranej wtyczki: prawy przycisk na kafelku → Pokaż ikonę na pasku narzędzi.
+    9. Inne wtyczki autora - stały kafel w prawym górnym rogu; otwiera okno z wtyczkami autora z repozytorium QGIS, zgodnymi z tą wersją QGIS.
+    10. Odśwież - ponownie sprawdza wersje w repozytorium; Aktualizuj - otwiera Menedżer wtyczek na zakładce aktualizacji.
+    Launcher informuje o nowych wtyczkach BDOO / BDOT10k w repozytorium (komunikat przy 3 kolejnych otwarciach okna) i prowadzi log (panel w oknie oraz plik centrum_bdot_bdoo.log w profilu QGIS). Dymki są po polsku i angielsku. Launcher niczego nie pobiera ani nie instaluje samodzielnie i nie wymaga dodatkowych bibliotek Pythona.
+    Wtyczki bez wersji dla QGIS 4 są pokazywane jako wyszarzone kafelki „Niedostępna dla tej wersji QGIS” i uaktywniają się same, gdy autor wyda wersję dla QGIS 4. Ustawienia nie są przenoszone z QGIS 3. Dla QGIS 3.x jest osobna wtyczka „Centrum wtyczek BDOT10k / BDOO (QGIS 3.x)”.
+    === USER GUIDE (EN) ===
+    The launcher gathers tiles of your most-used QGIS plugins in one window. The starting list contains plugins for the Polish BDOT10k and BDOO topographic databases.
+    1. Start: toolbar icon or menu Plugins → Centrum wtyczek BDOT10k / BDOO.
+    2. Clicking a tile opens the plugin: its menu/toolbar command or its Processing algorithm dialog (a list to choose from if there are several). A disabled plugin is enabled after confirmation; for a plugin that is not installed the Plugin Manager opens with its name filled in - you confirm the installation yourself.
+    3. Dodaj wtyczkę (Add plugin) - adds a tile for a plugin installed in QGIS (also a disabled one). Usuń wtyczkę (Remove plugin) - removes the selected tile; the plugin stays installed.
+    4. Order: drag a tile with the mouse. Each time the window opens, the most-used tiles move to the front.
+    5. Renaming: right-click a tile (tile name) or the window title (launcher name and group description).
+    6. Duplikuj ikonę (Duplicate icon) - creates another group (up to 10) with its own numbered toolbar icon and a topic description (e.g. Raster, Vector, AI). Usuń grupę (Delete group) - in the window of groups 2-10.
+    7. Skaluj ikony (Scale icons) - slider or typed value: tile size from 70 to 100 percent.
+    8. Wyłącz ikony (Hide icons) - hides from the QGIS toolbars the icons of plugins that have a tile (menus unchanged); Włącz ikony (Show icons) - restores them. Exception for a chosen plugin: right-click its tile → Pokaż ikonę na pasku narzędzi (Show toolbar icon).
+    9. Inne wtyczki autora (More plugins by the author) - fixed tile in the top-right corner; opens a window with the author's plugins from the QGIS repository that are compatible with this QGIS version.
+    10. Odśwież (Refresh) - checks versions in the repository again; Aktualizuj (Update) - opens the Plugin Manager on the upgrade tab.
+    The launcher reports new BDOO / BDOT10k plugins in the repository (message on 3 consecutive window openings) and keeps a log (panel in the window and centrum_bdot_bdoo.log in the QGIS profile). Tooltips are in Polish and English. The launcher does not download or install anything by itself and needs no extra Python libraries.
+    Plugins without a QGIS 4 version are shown as greyed-out tiles “Niedostępna dla tej wersji QGIS” (not available for this QGIS version) and become active once their author releases a QGIS 4 version. Settings are not carried over from QGIS 3. For QGIS 3.x there is a separate plugin “Centrum wtyczek BDOT10k / BDOO (QGIS 3.x)”.
+
+repository=https://github.com/apkatarcz-slaw/centr_bdot_4
+tracker=https://github.com/apkatarcz-slaw/centr_bdot_4/issues
+homepage=https://github.com/apkatarcz-slaw/centr_bdot_4
+category=Plugin,Management
+
+changelog=
+    1.0 - pierwsza wersja dla QGIS 4.x (PyQt6): kafelki wtyczek (polecenia i algorytmy Processing), grupy 1-10, dodawanie/usuwanie i zmiana nazw kafelków, kolejność przeciąganiem i wg użycia, Skaluj ikony (70-100 procent), Wyłącz/Włącz ikony na paskach narzędzi, kafel Inne wtyczki autora, informacja o nowych wtyczkach BDOO/BDOT10k, dymki PL/EN.
+    1.0 - first version for QGIS 4.x (PyQt6): plugin tiles (commands and Processing algorithms), groups 1-10, adding/removing and renaming tiles, drag-and-drop and usage-based order, tile scaling (70-100 percent), hide/show toolbar icons, More plugins by the author tile, notices about new BDOO/BDOT10k plugins, PL/EN tooltips.
+
+tags=bdot10k,bdoo,gugik,gml,poland,polska,launcher,processing,management
+
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
